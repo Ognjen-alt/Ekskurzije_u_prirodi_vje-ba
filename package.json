@@ -4,6 +4,7 @@
   "description": "Prva stranica za natours",
   "main": "index.js",
   "scripts": {
+    "start":"index.html",
     "watch:sass": "node-sass sass/main.scss assets/css/style.css -w",
     "devserver": "live-server",
     "start": "npm-run-all --parallel devserver watch:sass",
